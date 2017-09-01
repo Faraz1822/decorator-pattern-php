@@ -1,6 +1,6 @@
 <?php
 	interface Ticket {
-  		function calculatePrice();
-  		function ticketDescription();
+		function calculatePrice();
+		function ticketDescription();
 	}
 ?>

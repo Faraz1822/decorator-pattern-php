@@ -11,7 +11,7 @@
 
 	$basicTicket = new BasicTicket();
 	displayTicket($basicTicket);
-	
+
 	echo "<br><br>";
 
 	$ticketWithTwoPersonRoom = new TwoPersonRoom($basicTicket);
