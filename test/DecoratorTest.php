@@ -1,9 +1,10 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-require_once './BasicTicket.php';
-require_once './TwoPersonRoom.php';
-require_once './DepartureFromLahore.php';
+spl_autoload_register(function ($class_name) {
+    require_once $class_name . '.php';
+});
+    
 final class DecoratorTest extends TestCase
 {
 	public function testBasicTicket()
