@@ -1,6 +1,4 @@
 <?php  
-	require_once 'Ticket.php';
-
 	abstract class TicketDecorator implements Ticket {
 		protected $ticket;
 

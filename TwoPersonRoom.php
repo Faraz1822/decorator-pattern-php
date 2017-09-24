@@ -1,6 +1,4 @@
 <?php 
-	require_once 'TicketDecorator.php';
-
 	class TwoPersonRoom extends TicketDecorator {
 
 	    function calculatePrice (){

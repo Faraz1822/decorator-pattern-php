@@ -1,6 +1,4 @@
 <?php 
-	require_once 'TicketDecorator.php';
-
 	class DepartureFromLahore extends TicketDecorator {
 
 		function calculatePrice (){
